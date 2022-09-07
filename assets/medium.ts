@@ -51,13 +51,13 @@ export default ({ title, description, date, url, thumbnail }) => `
         }
         p {
           line-height: 1.5;
-          color: #555
+          color:  #f2f2f2
         }
         h3{
           color: #7CFC00
         }
         small{
-          color: #7CFC00;
+          color: #4CBB17;
           display: block;
           margin-top: 5px;
           margin-bottom: 8px
