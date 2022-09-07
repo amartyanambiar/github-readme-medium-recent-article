@@ -26,11 +26,15 @@ export default ({ title, description, date, url, thumbnail }) => `
         }
 				.container{
           height: 118px;
-          border: 1px solid rgba(0,0,0,.2);
+          border: 1px solid rgba(255,255,255,0.5);
           padding: 10px 20px;
           border-radius: 10px;
-          background: rgb(0,0,0);
-          background: linear-gradient(60deg, rgb(0,0,0) 0%, rgb(0,0,0) 47%, rgb(0,0,0) 50%, rgb(0,0,0) 53%, rgb(0,0,0) 100%);
+          background: rgb(38, 38, 38)
+          );
+          background: linear-gradient(60deg, rgb(38, 38, 38)
+          0%, rgb(0,0,0) 47%, rgb(0,0,0) 50%, rgb(38, 38, 38)
+          53%,rgb(38, 38, 38)
+          100%);
           background-size: 600% 400%;
           animation: gradientBackground 3s ease infinite;
           overflow: hidden;
