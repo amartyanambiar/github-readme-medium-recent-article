@@ -30,7 +30,7 @@ export default ({ title, description, date, url, thumbnail }) => `
           padding: 10px 20px;
           border-radius: 10px;
           background: rgb(0,0,0);
-          background: linear-gradient(60deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(246,246,246,1) 50%, rgba(255,255,255,1) 53%, rgba(255,255,255,1) 100%);
+          background: linear-gradient(60deg, rgb(0,0,0) 0%, rgb(0,0,0) 47%, rgb(0,0,0) 50%, rgb(0,0,0) 53%, rgb(0,0,0) 100%);
           background-size: 600% 400%;
           animation: gradientBackground 3s ease infinite;
           overflow: hidden;
@@ -54,10 +54,10 @@ export default ({ title, description, date, url, thumbnail }) => `
           color: #555
         }
         h3{
-          color: #333
+          color: #7CFC00
         }
         small{
-          color: #888;
+          color: #7CFC00;
           display: block;
           margin-top: 5px;
           margin-bottom: 8px
